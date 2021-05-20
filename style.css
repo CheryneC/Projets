@@ -1,0 +1,12 @@
+@font-face
+{
+    font-family: 'Raleway';
+    src: url('polices/Raleway-VariableFont_wght.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+    font-family: 'raleway', serif;
+}
