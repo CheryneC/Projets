@@ -10,3 +10,23 @@ body
 {
     font-family: 'raleway', serif;
 }
+
+#liheader
+{
+    color: #0065fc ;
+}
+
+ul 
+{
+    list-style-type: none;
+}
+
+i
+{
+    color: #0065fc ;
+}
+
+#mapmarker
+{
+    color: black;
+}
