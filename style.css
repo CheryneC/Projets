@@ -35,13 +35,15 @@ i
 header
 {
     display: flex ;
-    justify : space-between ; 
+    justify-content : space-between ; 
 }
 
 #ulheader
 {
     display: flex;
-    margin-top: 33px;
-    margin-left: 550px;
-    justify-content : space-between; 
+}
+
+#liheader
+{
+    padding-right: 20px;
 }
