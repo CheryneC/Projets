@@ -14,6 +14,7 @@ body
 #liheader
 {
     color: #0065fc ;
+
 }
 
 ul 
@@ -29,4 +30,18 @@ i
 #mapmarker
 {
     color: black;
+}
+
+header
+{
+    display: flex ;
+    justify : space-between ; 
+}
+
+#ulheader
+{
+    display: flex;
+    margin-top: 33px;
+    margin-left: 550px;
+    justify-content : space-between; 
 }
