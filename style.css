@@ -106,7 +106,67 @@ footer
     font-size: 14px;
 }
 
-#ulfooter
+.conteneur
 {
-    padding-left: 50px;
+    width: 80%;
+    min-width: 400px;
+    max-width: 800px;
+    min-height: 200px;
+    max-height: 800px
+    margin: auto;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hebe
+{
+    width: 20%;
+}
+
+#hebeart
+{
+    background-color: white;
+    border-radius: 10px;
+}
+
+aside
+{
+    width: 80%;
+    min-width: 400px;
+    max-width: 800px;
+    min-height: 200px;
+    max-height: 800px
+    margin: auto;
+    border-radius: 10px;
+    background-color: #f2f2f2; 
+}
+
+.imgaside
+{
+    width: 10%;
+}
+
+#asideart
+{
+    background-color: white;
+    border-radius: 10px; 
+}
+
+.actvites
+{
+    width: 80%;
+    min-width: 400px;
+    max-width: 800px;
+    min-height: 200px;
+    max-height: 800px
+    margin: auto;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+}
+
+.imgacti
+{
+    width: 30%;
 }
