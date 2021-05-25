@@ -14,8 +14,8 @@ body
 #liheader
 {
     color: #0065fc ;
-    padding-right: 60px;
-    padding-left: 60px;
+    margin-right: 60px;
+    margin-left: 60px;
 }
 
 ul 
@@ -58,6 +58,7 @@ li
 .borderheader
 {
     border-top: 2px #0065fc solid ;
+    padding-top: 2px;
 }
 
 h1
@@ -127,7 +128,6 @@ footer
 
 #hebeart
 {
-    flex: 3;
     position: relative;
     background-color: white;
     border-radius: 10px;
