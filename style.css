@@ -92,6 +92,11 @@ form
     display: flex;
 }
 
+.h2section1
+{
+    padding: 14px;
+}
+
 #ulsection1
 {
     display: flex;
@@ -100,6 +105,33 @@ form
 #filtres
 {
     display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    border: 2px solid #d9d9d9;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    font-weight: bold;
+}
+
+.isection1
+{
+  background-color: #DEEBFF;
+  border-radius: 50%;
+  height: 30px;
+  width: 34px;
+  min-height: 34px;
+  min-width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -2px;
+}
+
+.titressection1
+{
+    margin: 5px;
 }
 
 footer
