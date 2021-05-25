@@ -92,6 +92,16 @@ form
     display: flex;
 }
 
+#ulsection1
+{
+    display: flex;
+}
+
+#filtres
+{
+    display: flex;
+}
+
 footer
 {
     border: #f2f2f2;
