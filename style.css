@@ -247,27 +247,48 @@ aside
     grid-template-rows: auto repeat(3, 1fr);
 }
 
+.populaires
+{
+    background-color: #F2F2F2;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    width: 74%;
+}
+
 .poptitre
 {
     margin: 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: -31px;
 }
 
 .imgaside
 {
-    width: 40%;
-    float: left;
+    border-radius: 1rem 1rem 0 0;
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    object-fit: cover;
 }
 
-#asideart
+.asideart
 {
     background-color: white;
-    border-radius: 10px; 
-    width: 350px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    padding: 0.375rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 16px #0000002e;
+    box-sizing: border-box;
+    height: 164px;
+    width: 159px;
+    margin: 16px;
+}
+
+.asidetexte
+{
+    padding-top: 80px;
+    font-size: 10px; 
 }
 
 .actvites
