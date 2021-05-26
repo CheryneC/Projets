@@ -90,13 +90,13 @@ li
 
 h1
 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bolder;
 }
 
 h2
 {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .section1p
@@ -159,6 +159,7 @@ form
 .titressection1
 {
     margin: 5px;
+    font-size: 12px;
 }
 
 footer
@@ -176,7 +177,22 @@ footer
     font-size: 14px;
 }
 
-.conteneur
+.sectionhebergements
+{
+
+}
+
+.hebergements
+{
+    column-gap: 2rem;
+    row-gap: 2rem; 
+    background-color: #F2F2F2;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    width: 74%;
+}
+
+.hebebox
 {
     width: 80%;
     min-width: 400px;
@@ -192,15 +208,29 @@ footer
 
 .hebe
 {
-    width: 20%;
+    border-radius: 1rem 1rem 0 0;
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    object-fit: cover;
 }
 
-#hebeart
+.hebeart
 {
-    position: relative;
     background-color: white;
-    border-radius: 10px;
-    width: 100px;
+    padding: 0.375rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 16px #0000002e;
+    box-sizing: border-box;
+    height: 164px;
+    width: 159px;
+    margin: 16px;
+}
+
+.hebetexte
+{
+    padding-top: 80px;
+    font-size: 10px;
 }
 
 aside
@@ -214,6 +244,17 @@ aside
     background-color: #f2f2f2; 
     padding: 10px;
     width: 200px;
+    display: grid;
+    row-gap: 2rem;
+    align-items: start;
+    grid-template-rows: auto repeat(3, 1fr);
+}
+
+.poptitre
+{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .imgaside
