@@ -12,7 +12,7 @@
         <header>
                 <img src="./images/Reservia.svg" alt="Logo">
                 <ul id="ulheader">
-                    <li id="liheader" class="borderheader"><a href="#hebergements">Hébergements</a></li>
+                    <li class="borderheader"><a href="#hebergements">Hébergements</a></li>
                     <li><a href="#activites">Activités</a></li>
                     <li id="liheader" class="bold">S'inscrire</li>
                 </ul>
@@ -26,22 +26,22 @@
                 
                 <form method="GET" action="Rechercher">
                     <i id="mapmarker" class="fas fa-map-marker-alt"></i>
-                    <input class="saisie" type="recherche" id="ville" placeholder="Marseille,France"/> 
+                    <input class="saisie" type="text" id="ville" placeholder="Marseille,France"/> 
                     <input class="rechercher" type="submit" value="Rechercher" />
                 </form>
             </div>
 
             <div>
-                <div id="ulsection1">
+                <div id="divsection1">
                 <h2 class="h2section1">Filtres</h2>
                 <ul id="ulsection1"> 
-                   <li class="bold" id="filtres">
+                   <li class="filtres">
                         <div class="isection1"><i class="fas fa-money-bill-wave"></i></div><span class="titressection1">Economique</span></li>
-                    <li class="bold" id="filtres">
+                    <li class="filtres">
                         <div class="isection1"><i class="fas fa-child"></i></div><span class="titressection1">Familial</span></li>
-                    <li class="bold" id="filtres">
+                    <li class="filtres">
                         <div class="isection1"><i class="fas fa-heart"></i></div><span class="titressection1">Romantique</span></li>
-                    <li class="bold" id="filtres">
+                    <li class="filtres">
                         <div class="isection1"><i class="fas fa-dog"></i></div><span class="titressection1">Animaux autorisés</span></li> 
                 </ul>
                 </div>
@@ -133,7 +133,7 @@
 
         <aside>
             <div class="populaires">
-            <h1 class="poptitre">Les plus populaires <i id="mapmarker" class="fas fa-chart-line"></i></h1>
+            <h1 class="poptitre">Les plus populaires <i id="chartline" class="fas fa-chart-line"></i></h1>
                 <article class="asideart">
                     <img class="imgaside" src="./images/soleil.jpg" alt="Hôtel Soleil">
                     <div class="asidetexte">
@@ -216,7 +216,6 @@
                 <h2 class="actitexte">Parc Longchamp</h2>
             </article>
             </div>
-        </div>
         </div>
         </section>
     </main>
