@@ -450,3 +450,14 @@ aside
 {
     display: flex;
 }
+
+@media screen and (max-width: 375px) {
+    .header {
+      grid-template-columns: auto 1fr auto;
+    }
+    .logo {
+      order: 0;
+    }
+    .liheader {
+      order: 1;
+    }
