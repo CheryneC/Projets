@@ -461,3 +461,42 @@ aside
     .liheader {
       order: 1;
     }
+    .headerNav {
+        order: 2;
+      }
+    #navheader {
+        border-top: none;
+        border-bottom: 3px solid #F2F2F2;
+        width: 50%;
+      }
+      #navheader[data-active=true] {
+        border-bottom-color: #0065FC;
+      }
+      #navheader:hover {
+        border-bottom-color: #0065FC;
+      }
+    }
+    .main {
+        max-width: 1440px;
+        margin: auto;
+        padding: 0 2rem;
+        box-sizing: border-box;
+      }
+      
+      .maintitre {
+        margin-bottom: 0.5rem;
+      }
+      #pmain {
+        margin-top: 0;
+      }
+      .rechercherform {
+        display: inline-flex;
+        max-width: 100%;
+        overflow: auto;
+      }
+      #mapmaker {
+        background-color: #F2F2F2;
+        padding: 1rem 1.25rem;
+        border-radius: 1rem 0 0 1rem;
+        text-align: center;
+
