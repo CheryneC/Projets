@@ -629,3 +629,63 @@ aside
         margin: 0;
     }
 }
+
+@media screen and (max-width: 650px) 
+{
+    .h2section1
+    {
+      width: 100%;
+    }
+    .filtres
+    {
+      margin-right: 1rem;
+    }
+}
+
+@media (max-width: 650px) 
+{
+    .hebergements 
+    {
+      grid-template-columns: 1fr;
+    }
+
+    .divactivites 
+    {
+        row-gap: 2rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
+    }
+
+    .footer 
+    {
+      background-color: #F2F2F2;
+      width: 100%;
+    }
+
+    .tableaufooter 
+    {
+      display: flex;
+      max-width: 100%;
+      width: 1440px;
+      margin: auto;
+      padding: 0 2rem;
+      box-sizing: border-box;
+    }
+
+    .ulfooter
+    {
+      width: 30%;
+      padding: 2rem 2rem;
+    }
+
+    .lienfooter
+    {
+      display: block;
+      margin: 1rem 0;
+    }
+
+    .lienfooter:hover 
+    {
+      text-decoration: underline;
+    }
+}
