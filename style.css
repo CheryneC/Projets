@@ -114,6 +114,18 @@ h2
 .section1p
 {
     font-size: 11px;
+    display: flex;
+    margin-bottom: 12px;
+}
+
+#iresearch
+{
+    padding-top: 11px;
+}
+
+.trechercheresultat
+{
+        margin: 9px;
 }
 
 .lisection1
@@ -609,25 +621,6 @@ aside
         align-items: center;
         margin: 1rem 0 2rem 0;
     }
-          
-    .irechercheresultat 
-    {
-        height: 2rem;
-        width: 2rem;
-        min-height: 2rem;
-        min-width: 2rem;
-        border: solid 1px #d9d9d9;
-        border-radius: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 1rem;
-    }
-          
-    .trechercheresultat
-    {
-        margin: 0;
-    }
 }
 
 @media screen and (max-width: 650px) 
@@ -654,38 +647,5 @@ aside
         row-gap: 2rem;
         grid-template-columns: 1fr;
         grid-template-rows: auto 12rem 12rem 12rem 12rem 12rem 12rem;
-    }
-
-    .footer 
-    {
-      background-color: #F2F2F2;
-      width: 100%;
-    }
-
-    .tableaufooter 
-    {
-      display: flex;
-      max-width: 100%;
-      width: 1440px;
-      margin: auto;
-      padding: 0 2rem;
-      box-sizing: border-box;
-    }
-
-    .ulfooter
-    {
-      width: 30%;
-      padding: 2rem 2rem;
-    }
-
-    .lienfooter
-    {
-      display: block;
-      margin: 1rem 0;
-    }
-
-    .lienfooter:hover 
-    {
-      text-decoration: underline;
     }
 }
