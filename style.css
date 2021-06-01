@@ -552,21 +552,35 @@ aside
 
    .flexhebepop
    {
-       display: block;
+       display: flex;
+       flex-flow: column;
    }
 
    .populaires
    {
-       order: 0;
+       order: 1;
    }
 
    .hebergements
    {
-       order: 1;
+       order: 2;
    }
 
-   .divactivites
+   aside
    {
-       order: 2;
+       width: 120px;
+       margin-left: 26px;
+       border-radius: unset;
+   }
+
+   .imgaside
+   {
+    width: 17%;
+    height: 14.3%;
+   }
+
+   #chartline
+   {
+       margin-right: -23px;
    }
 }
