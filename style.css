@@ -153,7 +153,7 @@ form
     display: flex;
 }
 
-#ulsection1
+.ulsection1
 {
     display: flex;
 }
@@ -499,19 +499,16 @@ aside
 
 @media screen and (max-width: 650px){
 
-   .header-flex
-   {
-       display: flex;
-   }
-   
-   #ulheader
+    #ulheader
    {
        display: block;
    }
 
    .navheader
    {
+       border-top: none;
        border-bottom: 2px #0065FC solid;
+       display: flex;
    }
 
    .rechercher
@@ -519,9 +516,57 @@ aside
        display: none;
    }
 
-   .isearch
+   #isearch
    {
        background-color: #0065FC;
-       border-radius: 12px;
+       color: white;
+       padding: 13px 15px;
+       border-radius: 11px;
+       text-align: center;
+   }
+
+   .ulsection1
+   {
+       display: block;
+   }
+
+   .filtresecofam
+   {
+       display: flex;
+   }
+
+   #divsection1
+   {
+       display: block;
+   }
+
+   .filtre-rom
+   {
+       width: 114px;
+   }
+
+   .filtre-ani
+   {
+       width: 150px;
+   }
+
+   .flexhebepop
+   {
+       display: block;
+   }
+
+   .populaires
+   {
+       order: 0;
+   }
+
+   .hebergements
+   {
+       order: 1;
+   }
+
+   .divactivites
+   {
+       order: 2;
    }
 }
