@@ -561,11 +561,6 @@ aside
        order: 1;
    }
 
-   .hebergements
-   {
-       order: 2;
-   }
-
    aside
    {
        width: 120px;
@@ -582,5 +577,33 @@ aside
    #chartline
    {
        margin-right: -23px;
+   }
+
+   .hebergements
+   {
+       order: 2;
+       background-color: white;
+   }
+
+   .hebebox
+   {
+       display: block;
+       padding-left: 0;
+   }
+
+   .hebeart
+   {
+       width: 276px;
+       height: 176px;
+   }
+
+   .hebe
+   {
+       width: 40.2%;
+   }
+
+   .hebetexte
+   {
+       padding-top: 95px;
    }
 }
