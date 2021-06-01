@@ -497,7 +497,31 @@ aside
 }
 }
 
-@media screen and {max-width: 650px){
+@media screen and (max-width: 650px){
+{
+   .header-flex
+   {
+       display: flex;
+   }
+   
+   #ulheader
+   {
+       display: block;
+   }
 
-.
+   .navheader
+   {
+       border-bottom: 2px #0065FC solid;
+   }
+
+   .rechercher
+   {
+       display: none;
+   }
+
+   .isearch
+   {
+       background-color: #0065FC;
+       border-radius: 12px;
+   }
 }
