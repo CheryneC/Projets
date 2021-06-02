@@ -599,11 +599,16 @@ aside
 
    .hebe
    {
-       width: 40.2%;
+       width: 40.7%;
    }
 
    .hebetexte
    {
        padding-top: 95px;
+   }
+
+   .divactivites
+   {
+       order: 3;
    }
 }
