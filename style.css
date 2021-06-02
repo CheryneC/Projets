@@ -610,5 +610,79 @@ aside
    .divactivites
    {
        order: 3;
+       padding-left: 31px;
+   }
+
+   .actibox
+   {
+       display: block;
+   }
+
+   .actiart
+   {
+    width: 276px;
+    height: 176px;
+   }
+
+   .actiartbig
+   {
+    width: 276px;
+    height: 176px;
+   }
+
+   .actiartmiddle
+   {
+    width: 276px;
+    height: 176px;
+   }
+
+   .actiartlittle
+   {
+    width: 276px;
+    height: 176px;
+   }
+
+   .imgacti
+   {
+    width: 40.7%;
+    height: 20%;
+   }
+
+   .imgactibig
+   {
+    width: 40.7%;
+    height: 20%;
+   }
+
+   .imgactimiddle
+   {
+    width: 40.7%;
+    height: 20%;
+   }
+
+   .imgactilittle
+   {
+    width: 40.7%;
+    height: 20%;
+   }
+
+   .actitexte
+   {
+    padding-top: 134px;
+   }
+
+   .actitextebig
+   {
+    padding-top: 134px;
+   }
+
+   .actitextemiddle
+   {
+    padding-top: 134px;
+   }
+
+   .actitextelittle
+   {
+    padding-top: 134px;
    }
 }
