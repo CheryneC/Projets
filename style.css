@@ -69,6 +69,11 @@ i
     border: none;
 }
 
+#isearch
+{
+    color: white;
+}
+
 header
 {
     display: flex ;
@@ -154,6 +159,11 @@ form
 }
 
 .ulsection1
+{
+    display: flex;
+}
+
+.filtresecofam
 {
     display: flex;
 }
@@ -498,11 +508,11 @@ aside
 }
 
 @media screen and (max-width: 650px){
-
-    #ulheader
-   {
-       display: block;
-   }
+    #liheader
+    {
+        margin-right: 63px;
+        margin-left: 75px;
+    }
 
    .navheader
    {
@@ -611,6 +621,7 @@ aside
    {
        order: 3;
        padding-left: 31px;
+       padding-block-start: 749px;
    }
 
    .actibox
@@ -685,4 +696,54 @@ aside
    {
     padding-top: 134px;
    }
+
+   footer
+   {
+       display: block;
+       width: 237px;
+       height: 308px;
+
+   }
+
+   .footertitre
+   {
+       font-size: 13px;
+   }
+
+   .ulfooter
+   {
+       padding-top: 10px;
+   }
+}
+
+@media screen and (max-width: 650px){
+    .imgaside 
+    {
+        width: 30%;
+    }
+
+    .hebe 
+    {
+        width: 69.9%;
+    }
+
+    .imgacti
+    {
+        width: 69.9%;
+    }
+
+    .imgactibig
+    {
+        width: 69.9%;
+    }
+
+    .imgactimiddle
+    {
+        width: 69.9%;
+    }
+
+    .imgactilittle
+    {
+        width: 69.9%;
+    }
 }
