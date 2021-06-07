@@ -267,7 +267,7 @@ footer
 {
     border-radius: 1rem 1rem 0 0;
     position: absolute;
-    width: 13%;
+    width: 163px;
     height: 15%;
     object-fit: cover;
 }
@@ -582,6 +582,11 @@ aside
 }
 
 @media screen and (max-width: 650px){
+    .logo
+    {
+        float: left;
+        margin-bottom: 75px;
+    }
     #liheader
     {
         margin-right: 63px;
@@ -593,6 +598,7 @@ aside
         border-top: none;
         border-bottom: 2px #0065fc solid;
         order: 2;
+        margin-left: 0;
     }
 
     .actiheader
@@ -604,12 +610,15 @@ aside
     .inscriheader
     {
         order: 1;
+        margin-right: 167px;
     }
 
     .ulheader
     {
         display: -webkit-box;
         -webkit-box-align: end;
+        margin-top: 102px;
+        margin-right: 6px;
     }
 
    .rechercher
@@ -700,7 +709,7 @@ aside
 
    .hebe
    {
-       width: 40.7%;
+       width: 40.4%;
    }
 
    .hebetexte
