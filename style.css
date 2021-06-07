@@ -80,11 +80,6 @@ header
     justify-content : space-between ; 
 }
 
-#ulheader
-{
-    display: flex;
-}
-
 li 
 {
     display: list-item;
@@ -101,8 +96,21 @@ li
     border-top: 2px #0065fc solid ;
     padding-top: 2px;
     color: #0065fc ;
-    margin-right: 60px;
-    margin-left: 60px;
+    margin-right: 143px;
+    width: 113px;
+}
+
+.actiheader
+{
+    margin-right: 118px;
+    color: black;
+}
+
+.inscriheader
+{
+    color: #0065FC;
+    font-weight: bold;
+    margin-right: 20px;
 }
 
 h1
@@ -323,7 +331,7 @@ aside
     border-radius: 1rem 0 0 1rem;
     position: absolute;
     width: 7%;
-    height: 18.8%;
+    height: 108px;
     object-fit: cover;
 }
 
@@ -366,7 +374,7 @@ aside
     border-radius: 1rem 1rem 0 0;
     position: absolute;
     width: 20%;
-    height: 54%;
+    height: 316px;
     object-fit: cover; 
 }
 
