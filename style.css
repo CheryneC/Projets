@@ -96,21 +96,22 @@ li
     border-top: 2px #0065fc solid ;
     padding-top: 2px;
     color: #0065fc ;
-    margin-right: 143px;
     width: 113px;
+    width: 113px;
+    margin-left: 394px;
 }
 
 .actiheader
 {
-    margin-right: 118px;
     color: black;
+    margin-left: 126px;
 }
 
 .inscriheader
 {
     color: #0065FC;
     font-weight: bold;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 h1
@@ -587,12 +588,29 @@ aside
         margin-left: 75px;
     }
 
-   .navheader
-   {
-       border-top: none;
-       border-bottom: 2px #0065FC solid;
-       display: flex;
-   }
+    .borderheader
+    {
+        border-top: none;
+        border-bottom: 2px #0065fc solid;
+        order: 2;
+    }
+
+    .actiheader
+    {
+        border-bottom: 2px #F2F2F2 solid;
+        order: 3;
+    }
+
+    .inscriheader
+    {
+        order: 1;
+    }
+
+    .ulheader
+    {
+        display: -webkit-box;
+        -webkit-box-align: end;
+    }
 
    .rechercher
    {
