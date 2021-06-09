@@ -294,7 +294,6 @@ aside
 {
     width: 80%;
     margin-left: 50px;
-    min-width: 346px;
     border-radius: 1.5rem;
     background-color: #f2f2f2; 
     width: 200px;
@@ -479,28 +478,56 @@ aside
     display: flex;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1255px){
 
+    .hebeart
+    {
+        width: 175px;
+    }
+
+    .hebe
+    {
+        height: 87px;
+    }
+
+    .imgacti
+    {
+        height: 125px;
+    }
+
+    .imgactimiddle
+    {
+        height: 164px;
+    }
+
+    .imgactilittle
+    {
+        height: 89px;
+    }
+}
+
+@media screen and (max-width: 1200px){
 .hebergements
 {
     height: 590px;
+    width: 711px;
 }
 
 .hebeart
 {
-    width: 158px;
+    width: 150px;
     height: 244px;
 }
 
 .hebe
 {
-    width: 145px;
+    width: 137px;
+    height: 132px;
 }
 
 .hebetexte
 {
     padding-top: 125px;
-
 }
 
 aside
@@ -617,6 +644,261 @@ aside
     .actitextebig {
     padding-top: 305px;
     }
+}
+
+@media screen and (max-width: 850px){
+    .logo
+    {
+        float: left;
+        margin-bottom: 75px;
+    }
+
+    #liheader
+    {
+        margin-right: 63px;
+        margin-left: 75px;
+    }
+
+    .borderheader
+    {
+        border-top: none;
+        border-bottom: 2px #0065fc solid;
+        order: 2;
+        margin-left: 0;
+        color: #0065FC;
+    }
+
+    .actiheader
+    {
+        border-bottom: 2px #F2F2F2 solid;
+        order: 3;
+    }
+
+    .inscriheader
+    {
+        order: 1;
+        margin-right: 139px;
+        margin-top: 17px;
+    }
+
+    .ulheader
+    {
+        display: -webkit-box;
+        margin-top: 16px;
+    }
+
+   .rechercher
+   {
+       display: none;
+   }
+
+   #isearch
+   {
+       background-color: #0065FC;
+       color: white;
+       padding: 13px 15px;
+       border-radius: 11px;
+       text-align: center;
+   }
+
+   .filtresecofam
+   {
+       display: flex;
+   }
+
+   #divsection1
+   {
+       display: block;
+   }
+
+   .filtre-rom
+   {
+       width: 114px;
+   }
+
+   .filtre-ani
+   {
+       width: 161px;
+   }
+
+   .flexhebepop
+   {
+       display: flex;
+       flex-flow: column;
+   }
+
+   .populaires
+   {
+       order: 1;
+   }
+
+   .poptitre
+   {
+       margin-left: -3px;
+   }
+
+   aside
+   {
+       width: 545px;
+       margin-left: 26px;
+       border-radius: unset;
+       height: 671px;
+   }
+
+   .asideart
+   {
+    width: 498px;
+    margin-left: -10px;
+   }
+
+   .imgaside
+   {
+    width: 213px;
+    height: 141px;
+   }
+
+   #chartline
+   {
+      margin-right: -118px;
+   }
+
+   .asidetexte
+   {
+       padding-left: 230px;
+   }
+
+   .hebergements
+   {
+       order: 2;
+       background-color: white;
+   }
+
+   .hebebox
+   {
+       display: block;
+       padding-left: 0;
+   }
+
+   .hebeart
+   {
+    width: 384px;
+    height: 233px;
+    margin-left: 79px;
+   }
+
+   .hebe
+   {
+       width: 371px;
+   }
+
+   .hebetexte
+   {
+    padding-top: 127px;
+    margin-block: 1px;
+   }
+
+   .divactivites
+   {
+       order: 3;
+       padding-left: 31px;
+       padding-block-start: 944px;
+   }
+
+   .actibox
+   {
+       display: block;
+   }
+
+   .actiart
+   {
+    width: 384px;
+    height: 219px;
+    margin-left: 79px;
+   }
+
+   .actiartbig
+   {
+    width: 384px;
+    height: 219px;
+    margin-left: 79px;
+   }
+
+   .actiartmiddle
+   {
+    width: 384px;
+    height: 219px;
+    margin-left: 79px;
+   }
+
+   .actiartlittle
+   {
+    width: 384px;
+    height: 219px;
+    margin-left: 79px;
+   }
+
+   .imgacti
+   {
+    width: 371px;
+    height: 20%;
+   }
+
+   .imgactibig
+   {
+    width: 371px;
+    height: 20%;
+   }
+
+   .imgactimiddle
+   {
+    width: 371px;
+    height: 20%;
+   }
+
+   .imgactilittle
+   {
+    width: 371px;
+    height: 20%;
+   }
+
+   .actitexte
+   {
+    padding-top: 174px;
+   }
+
+   .actitextebig
+   {
+    padding-top: 174px;
+   }
+
+   .actitextemiddle
+   {
+    padding-top: 174px;
+   }
+
+   .actitextelittle
+   {
+    padding-top: 174px;
+   }
+
+   footer
+   {
+       display: block;
+       width: 351px;
+       height: 362px;
+       margin-block-start: 42px;
+
+   }
+
+   .footertitre
+   {
+       font-size: 13px;
+   }
+
+   .ulfooter
+   {
+       padding-top: 10px;
+   }
 }
 
 @media screen and (max-width: 650px){
