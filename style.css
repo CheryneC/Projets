@@ -240,7 +240,7 @@ footer
     background-color: #F2F2F2;
     border-radius: 1.5rem;
     padding: 2rem;
-    width: 70.6%;
+    width: 780px;
     height: 500px;
 }
 
@@ -292,11 +292,10 @@ footer
 
 aside
 {
-    width: 80%;
     margin-left: 50px;
     border-radius: 1.5rem;
     background-color: #f2f2f2; 
-    width: 200px;
+    width: 345px;
     height: 564px;
     align-items: start;
     grid-template-rows: auto repeat(3, 1fr);
@@ -479,34 +478,79 @@ aside
 }
 
 @media screen and (max-width: 1255px){
-
+    .hebergements
+    {
+        height: 590px;
+        width: 711px;
+    }
+    
     .hebeart
     {
         width: 175px;
+        height: 244px;
     }
-
+    
     .hebe
     {
-        height: 87px;
+        width: 87px;
+        height: 132px;
     }
-
+    
+    .hebetexte
+    {
+        padding-top: 125px;
+    }
+    
+    aside
+    {
+        height: 650px;
+    }
+    
+    #chartline
+    {
+        padding: 13px 0px;
+    }
+    
+    .asideart
+    {
+        margin-top: 41px;
+        height: 137px;
+    }
+    
+    .imgaside
+    {
+        height: 123px;
+    }
+    
     .imgacti
     {
+        width: 21.2%;
         height: 125px;
     }
-
+    
+    .imgactibig
+    {
+        width: 20.8%;
+    }
+    
     .imgactimiddle
     {
+        width: 21.2%;
         height: 164px;
     }
-
+    
     .imgactilittle
     {
+        width: 21.2%;
         height: 89px;
     }
-}
+    }
 
 @media screen and (max-width: 1200px){
+.inscriheader
+{
+    margin-right: 91px;
+}
 .hebergements
 {
     height: 590px;
@@ -533,6 +577,7 @@ aside
 aside
 {
     height: 650px;
+    width: 327px;
 }
 
 #chartline
@@ -551,27 +596,52 @@ aside
     height: 123px;
 }
 
+.actiart
+{
+    width: 260px;
+}
+
+.actiartbig
+{
+    width: 256px;
+}
+
+.actiartmiddle
+{
+    width: 260px;
+}
+
+.actiartlittle
+{
+    width: 260px;
+}
+
 .imgacti
 {
-    width: 21.2%;
+    width: 247px;
     height: 128px;
 }
 
 .imgactibig
 {
-    width: 20.8%;
+    width: 243px;
 }
 
 .imgactimiddle
 {
-    width: 21.2%;
+    width: 247px;
     height: 167px;
 }
 
 .imgactilittle
 {
-    width: 21.2%;
+    width: 247px;
     height: 91px;
+}
+
+footer
+{
+    width: 949px;
 }
 }
 
