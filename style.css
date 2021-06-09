@@ -763,7 +763,36 @@ footer
     }
     }
 
-
+@media screen and (max-width: 970px){
+    .flexhebepop
+    {
+        display: block;
+    }
+    
+    .hebergements {
+        height: 634px;
+        width: 790px;
+    }
+        
+    .hebeart {
+        width: 160px;
+        height: 252px;
+    }
+        
+    .hebe {
+        width: 148px;
+    }
+        
+    aside{
+        margin-block-start: 48px;
+        width: 351px;
+    }
+        
+    .imgactibig {
+        width: 142px;
+    }
+    }
+      
 @media screen and (max-width: 850px){
     .logo
     {
@@ -1120,10 +1149,10 @@ footer
 
    aside
    {
-       width: 120px;
+       width: 351px;
        margin-left: 26px;
        border-radius: unset;
-       height: 625px;
+       height: 682px;
    }
 
    .asideart
@@ -1135,7 +1164,7 @@ footer
    .imgaside
    {
     width: 124px;
-    height: 141px;
+    height: 125px;
    }
 
    #chartline
