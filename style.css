@@ -40,10 +40,8 @@ i
 #chartline
 {
     color: black;
-    background-color: #F2F2F2;
-    padding: 13px 15px;
-    border-radius: 11px 0 0 11px;
-    text-align: center;
+    margin-right: -33px;
+
 }
 
 .saisie
@@ -320,6 +318,7 @@ aside
     align-items: center;
     margin-top: -11px;
     margin-left: 20px;
+    font-size: 16px;
 }
 
 .imgaside
@@ -1110,6 +1109,11 @@ footer
    {
        display: block;
    }
+
+    .filtres
+    {
+        width: 114px;
+    }
 
    .filtresecofam
    {
