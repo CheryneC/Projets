@@ -551,6 +551,7 @@ aside
 {
     margin-right: 91px;
 }
+
 .hebergements
 {
     height: 590px;
@@ -645,76 +646,123 @@ footer
 }
 }
 
-@media screen and (max-width: 1000px){
-
-    .actiheader
-    {
-        margin-right: 91px;
-    }
-
+@media screen and (max-width: 1139px){
     .hebergements
     {
-        height: 597px;
+        height: 615px;
+    }
+    
+    .hebeart
+    {
+        width: 131px;
+        height: 257px;
+    }
+    
+    .hebe
+    {
+        width: 118px;
+    }
+    
+    aside
+    {
+        height: 676px;
+    }
+    
+    .imgactibig
+    {
+        width: 224px;
+    }
+    
+    footer
+    {
+        width: 914px;
+    }
     }
 
-    .hebebox 
-    {
-        width: 109%;
-        padding-left: 0px;
-    }
+@media screen and (max-width: 1068px){
 
     .hebeart
     {
-        height: 248px;
-        width: 147px;
-    }
-
-    .hebetexte
-    {
-       padding-top: 127px;
+        width: 118px;
     }
 
     .hebe {
-        width: 13.5%;
+        width: 106px;
     }
 
     aside {
     height: 658px;
     }
 
-    .asideart {
-    height: 153px;
-    }
-
-    .imgaside {
-    width: 8.8%;
-    height: 15.5%;
-    }
-
     .imgactibig {
-    width: 14.8%;
-    height: 308px;
+    width: 189px;
     }
 
     .imgactimiddle {
-    width: 25.2%;
-    height: 157px;
+    width: 246px;
     }
 
     .imgactilittle {
-    width: 25.2%;
-    height: 86px;
+    width: 246px;
     }
 
     .imgacti {
-    width: 25.2%;
-    height: 120px;
+    width: 246px;
     }
 
-    .actitextebig {
-    padding-top: 305px;
+    footer {
+        width: 838px;
     }
 }
+
+@media screen and (max-width: 1000px){
+    .actiheader
+    {
+        margin-left: 56px;
+    }
+
+    .hebergements
+    {
+        height: 653px;
+    }
+    
+    .hebeart
+    {
+        width: 105px;
+        height: 277px;
+    }
+    
+    .hebe
+    {
+        width: 92px;
+    }
+    
+    aside
+    {
+        height: 714px;
+    }
+
+    .asideart
+    {
+        margin-top: 62px;
+    }
+
+    .imgaside
+    {
+        width: 87px;
+    }
+    
+    .imgactibig
+    {
+        width: 155px;
+    }
+    
+    footer
+    {
+        width: 769px;
+    }
+    }
+
 
 @media screen and (max-width: 850px){
     .logo
