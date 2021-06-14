@@ -500,18 +500,18 @@ aside
     .hebergements
     {
         height: 590px;
-        width: 711px;
+        width: 57%;
     }
     
     .hebeart
     {
-        width: 175px;
+        width: 27%;
         height: 244px;
     }
     
     .hebe
     {
-        width: 87px;
+        width: 11%;
         height: 132px;
     }
     
@@ -574,18 +574,18 @@ aside
 .hebergements
 {
     height: 590px;
-    width: 711px;
+    width: 58%;
 }
 
 .hebeart
 {
-    width: 150px;
+    width: 27%;
     height: 244px;
 }
 
 .hebe
 {
-    width: 137px;
+    width: 11.3%;
     height: 132px;
 }
 
@@ -597,7 +597,7 @@ aside
 aside
 {
     height: 650px;
-    width: 327px;
+    width: 30%;
 }
 
 #chartline
@@ -618,17 +618,22 @@ aside
 
 .actiart
 {
-    width: 260px;
+    width: 117%;
 }
 
 .actiartbig
 {
-    width: 256px;
+    width: 21.3%;
+}
+
+.actiartbig2
+{
+    margin-left: 12px;
 }
 
 .actiartmiddle
 {
-    width: 260px;
+    width: 89.3%;
 }
 
 .actiartlittle
@@ -638,75 +643,76 @@ aside
 
 .imgacti
 {
-    width: 247px;
+    width: 20.4%;
     height: 128px;
 }
 
 .imgactibig
 {
-    width: 243px;
+    width: 20%;
 }
 
 .imgactimiddle
 {
-    width: 247px;
+    width: 20.6%;
     height: 167px;
 }
 
 .imgactilittle
 {
-    width: 247px;
+    width: 20.6%;
     height: 91px;
 }
 
 footer
 {
-    width: 949px;
+    width: 80%;
 }
 }
 
 @media screen and (max-width: 1139px){
-    .hebergements
-    {
-        height: 615px;
-    }
-    
-    .hebeart
-    {
-        width: 131px;
-        height: 257px;
-    }
-    
-    .hebe
-    {
-        width: 118px;
-    }
-    
-    aside
-    {
-        height: 676px;
-    }
     
     .imgactibig
     {
-        width: 224px;
+        width: 20%;
     }
     
     footer
     {
-        width: 914px;
+        width: 80%;
+    }
+
+    .imgactilittle
+    {
+        width: 21.6%;
+    }
+
+    .imgactimiddle
+    {
+        width: 21.6%;
+    }
+
+    .actiart 
+    {
+        width: 110%;
     }
     }
 
 @media screen and (max-width: 1068px){
 
+    .hebergements
+    {
+    height: 617px;
+    }
+
     .hebeart
     {
-        width: 118px;
+        width: 26%;
+        height: 259px;
     }
 
     .hebe {
-        width: 106px;
+        width: 10.6%;
     }
 
     aside {
@@ -714,23 +720,23 @@ footer
     }
 
     .imgactibig {
-    width: 189px;
+    width: 18.5%;
     }
 
     .imgactimiddle {
-    width: 246px;
+    width: 21.6%;
     }
 
     .imgactilittle {
-    width: 246px;
+    width: 21.6%;
     }
 
     .imgacti {
-    width: 246px;
+    width: 20.1%;
     }
 
     footer {
-        width: 838px;
+        width: 79%;
     }
 }
 
@@ -747,13 +753,13 @@ footer
     
     .hebeart
     {
-        width: 105px;
+        width: 26%;
         height: 277px;
     }
     
     .hebe
     {
-        width: 92px;
+        width: 10.7%;
     }
     
     aside
@@ -763,22 +769,44 @@ footer
 
     .asideart
     {
-        margin-top: 62px;
+        margin-top: 48px;
+        height: 153px;
+    }
+
+    .actiartbig
+    {
+        width: 20.3%;
+    }
+
+    .actiartbig2
+    {
+        width: 20%;
+    }
+
+    .actiart
+    {
+        width: 96%;
     }
 
     .imgaside
     {
         width: 87px;
+        height: 140px;
+    }
+
+    .imgacti
+    {
+        width: 19.8%;
     }
     
     .imgactibig
     {
-        width: 155px;
+        width: 18.5%;
     }
     
     footer
     {
-        width: 769px;
+        width: 79%;
     }
     }
 
@@ -790,25 +818,30 @@ footer
     
     .hebergements {
         height: 634px;
-        width: 790px;
+        width: 82%;
     }
         
     .hebeart {
-        width: 160px;
+        width: 25.5%;
         height: 252px;
     }
         
     .hebe {
-        width: 148px;
+        width: 15%;
     }
         
     aside{
         margin-block-start: 48px;
-        width: 351px;
+        width: 50%;
     }
         
     .imgactibig {
-        width: 142px;
+        width: 18.3%;
+    }
+
+    .imgacti
+    {
+        width: 20.4%;
     }
     }
       
@@ -879,12 +912,12 @@ footer
 
    .filtre-rom
    {
-       width: 114px;
+       width: 15%;
    }
 
    .filtre-ani
    {
-       width: 161px;
+       width: 20%;
    }
 
    .flexhebepop
@@ -905,7 +938,7 @@ footer
 
    aside
    {
-       width: 545px;
+       width: 66%;
        margin-left: 26px;
        border-radius: unset;
        height: 671px;
@@ -913,13 +946,13 @@ footer
 
    .asideart
    {
-    width: 498px;
+    width: 133%;
     margin-left: -10px;
    }
 
    .imgaside
    {
-    width: 213px;
+    width: 25%;
     height: 141px;
    }
 
@@ -947,14 +980,14 @@ footer
 
    .hebeart
    {
-    width: 384px;
+    width: 70%;
     height: 233px;
     margin-left: 79px;
    }
 
    .hebe
    {
-       width: 371px;
+       width: 43.5%;
    }
 
    .hebetexte
@@ -977,54 +1010,61 @@ footer
 
    .actiart
    {
-    width: 384px;
+    width: 48%;
     height: 219px;
     margin-left: 79px;
    }
 
    .actiartbig
    {
-    width: 384px;
+    width: 48%;
     height: 219px;
     margin-left: 79px;
    }
 
+   .actiartbig2
+   {
+    width: 48%;
+    height: 219px;
+    margin-left: 79px;  
+   }
+
    .actiartmiddle
    {
-    width: 384px;
+    width: 48%;
     height: 219px;
     margin-left: 79px;
    }
 
    .actiartlittle
    {
-    width: 384px;
+    width: 48%;
     height: 219px;
     margin-left: 79px;
    }
 
    .imgacti
    {
-    width: 371px;
-    height: 20%;
+    width: 43.9%;
+    height: 177px;
    }
 
    .imgactibig
    {
-    width: 371px;
-    height: 20%;
+    width: 43.9%;
+    height: 177px;
    }
 
    .imgactimiddle
    {
-    width: 371px;
-    height: 20%;
+    width: 43.9%;
+    height: 177px;
    }
 
    .imgactilittle
    {
-    width: 371px;
-    height: 20%;
+    width: 43.9%;
+    height: 177px;
    }
 
    .actitexte
@@ -1050,7 +1090,7 @@ footer
    footer
    {
        display: block;
-       width: 351px;
+       width: 43%;
        height: 362px;
        margin-block-start: 42px;
 
@@ -1132,7 +1172,7 @@ footer
 
     .filtres
     {
-        width: 114px;
+        width: 20%;
     }
 
    .filtresecofam
@@ -1147,12 +1187,12 @@ footer
 
    .filtre-rom
    {
-       width: 114px;
+       width: 21%;
    }
 
    .filtre-ani
    {
-       width: 161px;
+       width: 28%;
    }
 
    .flexhebepop
@@ -1181,14 +1221,14 @@ footer
 
    .asideart
    {
-    width: 299px;
+    width: 58%;
     margin-left: -10px;
    }
 
    .imgaside
    {
-    width: 124px;
-    height: 125px;
+    width: 58%;
+    height: 141px;
    }
 
    #chartline
@@ -1215,14 +1255,14 @@ footer
 
    .hebeart
    {
-    width: 319px;
+    width: 76.5%;
     height: 233px;
     margin-left: 10px;
    }
 
    .hebe
    {
-       width: 306px;
+       width: 47%;
    }
 
    .hebetexte
@@ -1245,54 +1285,61 @@ footer
 
    .actiart
    {
-    width: 319px;
+    width: 52.8%;
     height: 219px;
     margin-left: 10px;
    }
 
    .actiartbig
    {
-    width: 319px;
+    width: 52.8%;
     height: 219px;
     margin-left: 10px;
    }
 
+   .actiartbig2
+   {
+       width: 52.8%;
+       height: 219px;
+       margin-left: 10px;
+   }
+
    .actiartmiddle
    {
-    width: 319px;
+    width: 52.8%;
     height: 219px;
     margin-left: 10px;
    }
 
    .actiartlittle
    {
-    width: 319px;
+    width: 52.8%;
     height: 219px;
     margin-left: 10px;
    }
 
    .imgacti
    {
-    width: 306px;
-    height: 20%;
+    width: 47%;
+    height: 175px;
    }
 
    .imgactibig
    {
-    width: 306px;
-    height: 20%;
+    width: 47%;
+    height: 175px;
    }
 
    .imgactimiddle
    {
-    width: 306px;
-    height: 20%;
+    width: 47%;
+    height: 175px;
    }
 
    .imgactilittle
    {
-    width: 306px;
-    height: 20%;
+    width: 47%;
+    height: 175px;
    }
 
    .actitexte
@@ -1318,7 +1365,7 @@ footer
    footer
    {
        display: block;
-       width: 234px;
+       width: 42%;
        height: 362px;
        margin-block-start: 42px;
 
