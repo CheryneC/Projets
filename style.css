@@ -589,6 +589,124 @@ aside
     }
 }
 
+@media screen and (max-width: 1664px) {
+    .hebergements {
+        width: 59%;
+    }
+
+    .hebe {
+        width: 12.8%;
+    }
+
+    .actiart {
+        width: 156%;
+    }
+
+    .actiartlittle {
+        width: 120%;
+    }
+
+    .actiartmiddle {
+        width: 121%;
+    }
+
+    .actiartbig2 {
+        width: 23.3%;
+    }
+
+    .actiartbig {
+        width: 23.3%;
+    }
+
+    .imgactibig {
+        width: 22.4%;
+    }
+
+    .imgactimiddle {
+        width: 17.3%;
+    }
+
+    .imgactilittle {
+        width: 17.1%;
+    }
+    
+    .imgaside
+    {
+        width: 8%;
+    }
+}
+
+@media screen and (max-width: 1580px){
+    .hebergements {
+        width: 70%;
+    }
+
+    .hebe {
+        width: 14.3%;
+    }
+
+    .imgactimiddle {
+        width: 18.3%;
+    }
+
+    .imgactilittle {
+        width: 18.1%;
+    }
+
+    .imgacti {
+        width: 21%;
+    }
+}
+
+@media screen and (max-width: 1448px){
+    .inscriheader {
+        margin-right: 95px;
+    }
+
+    .hebeart {
+        width: 27%;
+    }
+
+    .hebe {
+        width: 11.9%;
+    }
+
+    #chartline {
+        margin-right: -53px;
+    }
+
+    .asidetexte {
+        padding-left: 105px;
+    }
+
+    .asideart
+    {
+        height: 132px;
+    }
+
+    .imgaside
+    {
+        height: 120px;
+    }
+
+    .actiart
+    {
+        width: 264px;
+    }
+
+    .imgactibig {
+        width: 19.4%;
+    }
+
+    .imgactimiddle {
+        width: 21.3%;
+    }
+
+    .imgactilittle {
+        width: 21.1%;
+    }  
+}
+
 @media screen and (max-width: 1255px){
     .hebergements
     {
@@ -763,6 +881,33 @@ footer
 }
 }
 
+@media screen and (max-width: 1174px){
+    .actiartmiddle {
+        width: 64.3%;
+    }
+
+    .actiartbig2 {
+        margin-left: -107px;
+        width: 21.5%;
+    }
+
+    .actiartbig {
+        width: 21.3%;
+    }
+
+    .actiart {
+        width: 115%;
+    }
+
+    .actiartmiddle {
+        width: 63.3%;
+    }
+
+    .actiartlittle {
+        width: 254px;
+    }
+}
+
 @media screen and (max-width: 1139px){
     
     .imgactibig
@@ -912,6 +1057,8 @@ footer
     .hebergements {
         height: 634px;
         width: 82%;
+        margin-left: auto;
+        margin-right: auto;
     }
         
     .hebeart {
@@ -926,6 +1073,8 @@ footer
     aside{
         margin-block-start: 48px;
         width: 50%;
+        margin-left: auto;
+        margin-right: auto;
     }
         
     .imgactibig {
@@ -936,7 +1085,16 @@ footer
     {
         width: 20.4%;
     }
+
+    .imgactimiddle
+    {
+        width: 24.6%;
     }
+
+    .imgactilittle {
+        width: 24.6%;
+    }
+}
       
 @media screen and (max-width: 850px){
     .logo
@@ -1032,9 +1190,8 @@ footer
    aside
    {
        width: 66%;
-       margin-left: 26px;
        border-radius: unset;
-       height: 671px;
+       height: 690px;
    }
 
    .asideart
@@ -1306,21 +1463,20 @@ footer
 
    aside
    {
-       width: 351px;
-       margin-left: 26px;
+       width: 71%;
        border-radius: unset;
-       height: 682px;
+       height: 687px;
    }
 
    .asideart
    {
-    width: 58%;
+    width: 124%;
     margin-left: -10px;
    }
 
    .imgaside
    {
-    width: 58%;
+    width: 25%;
     height: 141px;
    }
 
@@ -1331,7 +1487,7 @@ footer
 
    .asidetexte
    {
-       padding-left: 140px;
+       padding-left: 177px;
    }
 
    .hebergements
