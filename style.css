@@ -1219,6 +1219,7 @@ footer
    .hebergements
    {
        order: 2;
+       margin-right: -24px;
        background-color: white;
    }
 
@@ -1251,6 +1252,7 @@ footer
        order: 3;
        padding-left: 31px;
        padding-block-start: 944px;
+       margin-left: 107px;
    }
 
    .actibox
@@ -1260,35 +1262,35 @@ footer
 
    .actiart
    {
-    width: 48%;
+    width: 55.5%;
     height: 219px;
     margin-left: 79px;
    }
 
    .actiartbig
    {
-    width: 48%;
+    width: 55.5%;
     height: 219px;
     margin-left: 79px;
    }
 
    .actiartbig2
    {
-    width: 48%;
+    width: 55.5%;
     height: 219px;
     margin-left: 79px;  
    }
 
    .actiartmiddle
    {
-    width: 48%;
+    width: 55.5%;
     height: 219px;
     margin-left: 79px;
    }
 
    .actiartlittle
    {
-    width: 48%;
+    width: 55.5%;
     height: 219px;
     margin-left: 79px;
    }
@@ -1343,7 +1345,7 @@ footer
        width: 43%;
        height: 362px;
        margin-block-start: 42px;
-
+       margin-left: 120px;
    }
 
    .footertitre
@@ -1494,6 +1496,7 @@ footer
    {
        order: 2;
        background-color: white;
+       margin-left: 117px;
    }
 
    .hebebox
@@ -1534,35 +1537,35 @@ footer
 
    .actiart
    {
-    width: 52.8%;
+    width: 63.8%;
     height: 219px;
     margin-left: 10px;
    }
 
    .actiartbig
    {
-    width: 52.8%;
+    width: 63.8%;
     height: 219px;
     margin-left: 10px;
    }
 
    .actiartbig2
    {
-       width: 52.8%;
+       width: 63.8%;
        height: 219px;
        margin-left: 10px;
    }
 
    .actiartmiddle
    {
-    width: 52.8%;
+    width: 63.8%;
     height: 219px;
     margin-left: 10px;
    }
 
    .actiartlittle
    {
-    width: 52.8%;
+    width: 63.8%;
     height: 219px;
     margin-left: 10px;
    }
@@ -1617,7 +1620,7 @@ footer
        width: 42%;
        height: 362px;
        margin-block-start: 42px;
-
+       margin-left: 79px;
    }
 
    .footertitre
