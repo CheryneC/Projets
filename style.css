@@ -52,7 +52,7 @@ i
     border-bottom: #F2F2F2 1px solid;
     padding: 11px 2px;
     box-sizing: border-box;
-    width: 232px;
+    width: 150px;
     font-size: 14px;
     font-weight: bold;
 }
@@ -94,15 +94,13 @@ li
     border-top: 2px #0065fc solid ;
     padding-top: 2px;
     color: #0065fc ;
-    width: 113px;
-    width: 113px;
-    margin-left: 876px;
+    margin-right: -150px;
 }
 
 .actiheader
 {
     color: black;
-    margin-left: 126px;
+    margin-left: 442px;
 }
 
 .activiteslien
@@ -121,7 +119,7 @@ li
 {
     color: #0065FC;
     font-weight: bold;
-    margin-right: 283px;
+    margin-right: 212px;
 }
 
 h1
@@ -226,7 +224,7 @@ footer
     display: flex;
     justify-content: space-between;
     padding-right: 20px;
-    width: 98%;
+    width: 95%;
 }
 
 .footertitre
@@ -560,6 +558,11 @@ aside
         margin-left: 751px;
     }
 
+    .actiheader
+    {
+        margin-left: 286px;
+    }
+
     .hebergements {
         width: 70%;
     }
@@ -659,6 +662,10 @@ aside
 @media screen and (max-width: 1255px){
     .borderheader {
         margin-left: 495px;
+    }
+
+    .actiheader {
+        margin-left: 193px;
     }
 
     .hebergements
@@ -969,14 +976,13 @@ footer
     }
 
     footer {
-        width: 79%;
+        width: 98%;
     }
 }
 
 @media screen and (max-width: 1000px){
-    .actiheader
-    {
-        margin-left: 56px;
+    .actiheader {
+        margin-left: 197px;
     }
 
     .hebergements
@@ -1054,7 +1060,7 @@ footer
     
     footer
     {
-        width: 79%;
+        width: 96%;
     }
     }
 
@@ -1103,6 +1109,10 @@ footer
 
     .imgactilittle {
         width: 24.6%;
+    }
+
+    footer {
+        width: 95%;
     }
 }
       
@@ -1352,9 +1362,9 @@ footer
    footer
    {
        display: block;
-       width: 43%;
+       width: 60%;
        margin-block-start: 42px;
-       margin-left: 120px;
+       margin-left: 156px;
    }
 
    .footertitre
@@ -1626,7 +1636,7 @@ footer
    footer
    {
        display: block;
-       width: 42%;
+       width: 66%;
        margin-block-start: 42px;
        margin-left: 79px;
    }
@@ -1680,13 +1690,18 @@ footer
     }
 }
 
-@media screen and (max-width: 411px){
+@media screen and (max-width: 415px){
+    .inscriheader
+    {
+        margin-left: -33px;
+    }
+
     .filtres {
-        width: 33%;
+        width: 45%;
     }
 
     .filtre-rom {
-        width: 33%;
+        width: 45%;
     }
 
     .filtre-ani {
