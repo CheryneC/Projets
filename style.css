@@ -225,7 +225,8 @@ footer
     background-color: #f2f2f2;
     display: flex;
     justify-content: space-between;
-    padding-right: 200px;
+    padding-right: 20px;
+    width: 98%;
 }
 
 .footertitre
@@ -1352,7 +1353,6 @@ footer
    {
        display: block;
        width: 43%;
-       height: 362px;
        margin-block-start: 42px;
        margin-left: 120px;
    }
@@ -1386,7 +1386,7 @@ footer
         border-top: none;
         border-bottom: 2px #0065fc solid;
         order: 2;
-        margin-left: 0;
+        margin-left: -40px;
         color: #0065FC;
     }
 
@@ -1433,7 +1433,7 @@ footer
 
     .filtres
     {
-        width: 20%;
+        width: 28%;
     }
 
    .filtresecofam
@@ -1448,7 +1448,7 @@ footer
 
    .filtre-rom
    {
-       width: 21%;
+       width: 26%;
    }
 
    .filtre-ani
@@ -1581,7 +1581,7 @@ footer
 
    .imgacti
    {
-    width: 47%;
+    width: 46.5%;
     height: 175px;
    }
 
@@ -1627,7 +1627,6 @@ footer
    {
        display: block;
        width: 42%;
-       height: 362px;
        margin-block-start: 42px;
        margin-left: 79px;
    }
@@ -1641,4 +1640,132 @@ footer
    {
        padding-top: 10px;
    }
+}
+
+@media screen and (max-width: 500px){
+    .asidetexte
+    {
+        padding-left: 149px;
+    } 
+
+    .hebergements
+    {
+        margin-left: 85px;
+    }
+
+    .imgacti
+    {
+        width: 42%;
+    }
+
+    .imgactibig
+    {
+        width: 42%;
+    }
+
+    .imgactimiddle
+    {
+        width: 42%;
+    }
+
+    .imgactilittle
+    {
+        width: 42%;
+    }
+
+    footer
+    {
+        margin-left: 92px;
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 411px){
+    .filtres {
+        width: 33%;
+    }
+
+    .filtre-rom {
+        width: 33%;
+    }
+
+    .filtre-ani {
+        width: 45%;
+    }
+
+    aside {
+        width: 83%;
+    }
+
+    #chartline {
+        margin-right: -40px;
+    }
+
+    .asideart
+    {
+        margin-left: -21px;
+    }
+
+    .asidetexte {
+        padding-left: 114px;
+    }
+
+    .hebergements {
+        margin-left: 59px;
+    }
+
+    .hebe {
+        width: 45%;
+    }
+
+    .divactivites
+    {
+        padding-left: 0px;
+    }
+
+    footer
+    {
+        margin-left: 73px;
+    }
+
+    .actiart
+    {
+        height: 232px;
+    }
+
+    .actiartbig
+    {
+        height: 232px;
+    }
+
+    .actiartbig2
+    {
+        height: 232px;
+    }
+
+    .actiartmiddle
+    {
+        height: 232px;
+    }
+
+    .actiartlittle
+    {
+        height: 232px;
+    }
+
+    .imgacti {
+        width: 37%;
+    }
+
+    .imgactimiddle {
+        width: 37%;
+    }
+
+    .imgactibig {
+        width: 37%;
+    }
+
+    .imgactilittle {
+        width: 37%;
+    }
 }
