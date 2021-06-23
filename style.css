@@ -560,7 +560,7 @@ aside
 
     .actiheader
     {
-        margin-left: 286px;
+        margin-left: 213px;
     }
 
     .hebergements {
@@ -614,7 +614,7 @@ aside
     }
 
     .hebe {
-        width: 12.9%;
+        width: 12.6%;
     }
 
     #chartline {
@@ -643,15 +643,15 @@ aside
 
     .imgacti
     {
-        width: 17.3%;
+        width: 19%;
     }
 
     .imgactibig {
-        width: 22.2%;
+        width: 20.7%;
     }
 
     .imgactimiddle {
-        width: 22.9%;
+        width: 23.3%;
     }
 
     .imgactilittle {
@@ -1065,6 +1065,10 @@ footer
     }
 
 @media screen and (max-width: 970px){
+    .actiheader {
+        margin-left: 149px;
+    }
+
     .flexhebepop
     {
         display: block;
@@ -1183,7 +1187,7 @@ footer
 
    .filtre-rom
    {
-       width: 15%;
+       width: 18.5%;
    }
 
    .filtre-ani
@@ -1228,7 +1232,7 @@ footer
 
    #chartline
    {
-      margin-right: -118px;
+      margin-right: -92px;
    }
 
    .asidetexte
