@@ -266,6 +266,8 @@ footer
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    align-items: center;
+    justify-content: center
 }
 
 .hebe
@@ -1195,12 +1197,6 @@ footer
        width: 20%;
    }
 
-   .flexhebepop
-   {
-       display: flex;
-       flex-flow: column;
-   }
-
    .populaires
    {
        order: 1;
@@ -1243,20 +1239,14 @@ footer
    .hebergements
    {
        order: 2;
-       margin-right: -24px;
        background-color: white;
    }
 
    .hebebox
    {
-       display: block;
-   }
-
-   .hebeart
-   {
-    width: 70%;
-    height: 233px;
-    margin-left: 79px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
    }
 
    .hebe
@@ -1274,8 +1264,8 @@ footer
    {
        order: 3;
        padding-left: 31px;
-       padding-block-start: 944px;
-       margin-left: 107px;
+       padding-block-start: 50px;
+       margin-left: 46px;
    }
 
    .actibox
@@ -1469,12 +1459,6 @@ footer
        width: 28%;
    }
 
-   .flexhebepop
-   {
-       display: flex;
-       flex-flow: column;
-   }
-
    .populaires
    {
        order: 1;
@@ -1529,7 +1513,6 @@ footer
    {
     width: 76.5%;
     height: 233px;
-    margin-left: 10px;
    }
 
    .hebe
@@ -1681,8 +1664,8 @@ footer
 
     footer
     {
-        margin-left: 92px;
-        width: 65%;
+        margin-left: 0;
+        width: 100%;
     }
 }
 
