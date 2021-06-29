@@ -249,7 +249,6 @@ footer
     border-radius: 1.5rem;
     padding: 2rem;
     width: 60%;
-    height: 500px;
 }
 
 .hebetitre
@@ -303,7 +302,6 @@ aside
     border-radius: 1.5rem;
     background-color: #f2f2f2; 
     width: 30%;
-    height: 564px;
     align-items: start;
     grid-template-rows: auto repeat(3, 1fr);
 }
@@ -673,7 +671,6 @@ aside
 
     .hebergements
     {
-        height: 590px;
         width: 57%;
     }
     
@@ -692,11 +689,6 @@ aside
     .hebetexte
     {
         padding-top: 125px;
-    }
-    
-    aside
-    {
-        height: 650px;
     }
     
     #chartline
@@ -757,7 +749,6 @@ aside
 
 .hebergements
 {
-    height: 590px;
     width: 58%;
 }
 
@@ -773,14 +764,8 @@ aside
     height: 132px;
 }
 
-.hebetexte
-{
-    padding-top: 125px;
-}
-
 aside
 {
-    height: 650px;
     width: 30%;
 }
 
@@ -848,11 +833,6 @@ aside
     width: 20.6%;
     height: 91px;
 }
-
-footer
-{
-    width: 80%;
-}
 }
 
 @media screen and (max-width: 1174px){
@@ -899,11 +879,6 @@ footer
     {
         width: 20%;
     }
-    
-    footer
-    {
-        width: 80%;
-    }
 
     .imgactilittle
     {
@@ -927,12 +902,6 @@ footer
     }
 
 @media screen and (max-width: 1068px){
-
-    .hebergements
-    {
-    height: 617px;
-    }
-
     .hebeart
     {
         width: 26%;
@@ -941,10 +910,6 @@ footer
 
     .hebe {
         width: 10.6%;
-    }
-
-    aside {
-    height: 658px;
     }
 
     .asideart
@@ -977,20 +942,11 @@ footer
     .imgacti {
     width: 20.1%;
     }
-
-    footer {
-        width: 98%;
-    }
 }
 
 @media screen and (max-width: 1000px){
     .actiheader {
         margin-left: 197px;
-    }
-
-    .hebergements
-    {
-        height: 653px;
     }
     
     .hebeart
@@ -1002,11 +958,6 @@ footer
     .hebe
     {
         width: 10.7%;
-    }
-    
-    aside
-    {
-        height: 714px;
     }
 
     #chartline
@@ -1060,16 +1011,11 @@ footer
     {
         width: 18.5%;
     }
-    
-    footer
-    {
-        width: 96%;
-    }
     }
 
 @media screen and (max-width: 970px){
     .actiheader {
-        margin-left: 149px;
+        margin-left: 153px;
     }
 
     .flexhebepop
@@ -1078,7 +1024,6 @@ footer
     }
     
     .hebergements {
-        height: 634px;
         width: 82%;
         margin-right: auto;
     }
@@ -1115,10 +1060,6 @@ footer
 
     .imgactilittle {
         width: 24.6%;
-    }
-
-    footer {
-        width: 95%;
     }
 }
       
@@ -1211,7 +1152,6 @@ footer
    {
        width: 66%;
        border-radius: unset;
-       height: 690px;
    }
 
    .asideart
@@ -1247,11 +1187,18 @@ footer
        display: flex;
        align-items: center;
        justify-content: center;
+       width: 100%;
+       padding-left: 0;
    }
 
    .hebe
    {
-       width: 43.5%;
+       width: 75.2%;
+   }
+
+   .hebeart
+   {
+       width: 100%;
    }
 
    .hebetexte
@@ -1310,25 +1257,25 @@ footer
 
    .imgacti
    {
-    width: 43.9%;
+    width: 47.9%;
     height: 177px;
    }
 
    .imgactibig
    {
-    width: 43.9%;
+    width: 47.9%;
     height: 177px;
    }
 
    .imgactimiddle
    {
-    width: 43.9%;
+    width: 47.9%;
     height: 177px;
    }
 
    .imgactilittle
    {
-    width: 43.9%;
+    width: 47.9%;
     height: 177px;
    }
 
@@ -1355,9 +1302,7 @@ footer
    footer
    {
        display: block;
-       width: 60%;
        margin-block-start: 42px;
-       margin-left: 156px;
    }
 
    .footertitre
@@ -1473,7 +1418,6 @@ footer
    {
        width: 71%;
        border-radius: unset;
-       height: 687px;
    }
 
    .asideart
@@ -1504,20 +1448,15 @@ footer
        background-color: white;
    }
 
-   .hebebox
-   {
-       display: block;
-   }
-
    .hebeart
    {
-    width: 76.5%;
+    width: 79.5%;
     height: 233px;
    }
 
    .hebe
    {
-       width: 47%;
+       width: 61.8%;
    }
 
    .hebetexte
@@ -1530,7 +1469,6 @@ footer
    {
        order: 3;
        padding-left: 31px;
-       padding-block-start: 944px;
    }
 
    .actibox
@@ -1575,25 +1513,25 @@ footer
 
    .imgacti
    {
-    width: 46.5%;
+    width: 53%;
     height: 175px;
    }
 
    .imgactibig
    {
-    width: 47%;
+    width: 53%;
     height: 175px;
    }
 
    .imgactimiddle
    {
-    width: 47%;
+    width: 53%;
     height: 175px;
    }
 
    .imgactilittle
    {
-    width: 47%;
+    width: 53%;
     height: 175px;
    }
 
@@ -1620,9 +1558,7 @@ footer
    footer
    {
        display: block;
-       width: 66%;
        margin-block-start: 42px;
-       margin-left: 79px;
    }
 
    .footertitre
@@ -1644,28 +1580,22 @@ footer
 
     .imgacti
     {
-        width: 42%;
+        width: 49%;
     }
 
     .imgactibig
     {
-        width: 42%;
+        width: 49%;
     }
 
     .imgactimiddle
     {
-        width: 42%;
+        width: 49%;
     }
 
     .imgactilittle
     {
-        width: 42%;
-    }
-
-    footer
-    {
-        margin-left: 0;
-        width: 100%;
+        width: 49%;
     }
 }
 
