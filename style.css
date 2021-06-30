@@ -1015,7 +1015,7 @@ aside
 
 @media screen and (max-width: 970px){
     .actiheader {
-        margin-left: 153px;
+        margin-left: 214px;
     }
 
     .flexhebepop
@@ -1631,21 +1631,16 @@ aside
     }
 
     .asidetexte {
-        padding-left: 114px;
+        padding-left: 90px;
     }
 
     .hebe {
-        width: 45%;
+        width: 58%;
     }
 
     .divactivites
     {
         padding-left: 0px;
-    }
-
-    footer
-    {
-        margin-left: 73px;
     }
 
     .actiart
@@ -1674,18 +1669,18 @@ aside
     }
 
     .imgacti {
-        width: 37%;
+        width: 48%;
     }
 
     .imgactimiddle {
-        width: 37%;
+        width: 48%;
     }
 
     .imgactibig {
-        width: 37%;
+        width: 48%;
     }
 
     .imgactilittle {
-        width: 37%;
+        width: 48%;
     }
 }
