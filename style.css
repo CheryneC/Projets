@@ -523,11 +523,11 @@ aside
     }
 
     .actiartbig2 {
-        width: 23.3%;
+        width: 22.3%;
     }
 
     .actiartbig {
-        width: 23.3%;
+        width: 22.3%;
     }
 
     .imgacti
@@ -536,7 +536,7 @@ aside
     }
 
     .imgactibig {
-        width: 22.4%;
+        width: 21.4%;
     }
 
     .imgactimiddle {
@@ -561,7 +561,7 @@ aside
 
     .actiheader
     {
-        margin-left: 213px;
+        margin-left: 255px;
     }
 
     .hebergements {
@@ -570,6 +570,10 @@ aside
 
     .hebe {
         width: 13%;
+    }
+
+    .actiart {
+        width: 181%;
     }
 
     .actiartmiddle
@@ -596,7 +600,11 @@ aside
     }
 
     .imgacti {
-        width: 21%;
+        width: 24.5%;
+    }
+
+    footer {
+        width: 99%;
     }
 }
 
@@ -639,20 +647,20 @@ aside
 
     .actiart
     {
-        width: 264px;
+        width: 148%;
     }
 
     .imgacti
     {
-        width: 19%;
+        width: 21.5%;
     }
 
     .imgactibig {
-        width: 20.7%;
+        width: 21.1%;
     }
 
     .imgactimiddle {
-        width: 23.3%;
+        width: 22.9%;
     }
 
     .imgactilittle {
@@ -666,7 +674,7 @@ aside
     }
 
     .actiheader {
-        margin-left: 193px;
+        margin-left: 195px;
     }
 
     .hebergements
@@ -708,9 +716,16 @@ aside
         height: 123px;
     }
 
-    .actiartbig2
-    {
-        margin-left: 207px;
+    .actiartbig2 {
+        margin-left: 163px;
+    }
+
+    .actiartmiddle {
+        width: 173%;
+    }
+
+    .actiartlittle {
+        width: 173%;
     }
     
     .imgacti
@@ -726,22 +741,27 @@ aside
     
     .imgactimiddle
     {
-        width: 23.9%;
+        width: 22.9%;
         height: 164px;
     }
     
     .imgactilittle
     {
-        width: 23.9%;
+        width: 22.9%;
         height: 89px;
     }
-    }
+}
 
 @media screen and (max-width: 1200px){
 .borderheader
 {
     margin-left: 399px;
 }
+
+.actiheader {
+    margin-left: 261px;
+}
+
     .inscriheader
 {
     margin-right: 91px;
@@ -856,7 +876,7 @@ aside
     }
 
     .actiart {
-        width: 115%;
+        width: 121%;
     }
 
     .actiartmiddle {
@@ -867,6 +887,10 @@ aside
         width: 254px;
     }
 
+    .imgacti {
+        width: 21.7%;
+    }
+
     .imgactibig
     {
         width: 20%;
@@ -874,25 +898,28 @@ aside
 }
 
 @media screen and (max-width: 1139px){
-    
+    .actiheader {
+        margin-left: 255px;
+    }
+
     .imgactibig
     {
-        width: 20%;
+        width: 19.9%;
     }
 
     .imgactilittle
     {
-        width: 21.6%;
+        width: 21.2%;
     }
 
     .imgactimiddle
     {
-        width: 21.6%;
+        width: 21.2%;
     }
 
     .actiart 
     {
-        width: 110%;
+        width: 118%;
     }
 
     .actiartmiddle
@@ -902,6 +929,10 @@ aside
     }
 
 @media screen and (max-width: 1068px){
+    .actiheader {
+        margin-left: 226px;
+    }
+
     .hebeart
     {
         width: 26%;
@@ -1015,7 +1046,7 @@ aside
 
 @media screen and (max-width: 970px){
     .actiheader {
-        margin-left: 214px;
+        margin-left: 196px;
     }
 
     .flexhebepop
@@ -1038,7 +1069,6 @@ aside
     }
         
     aside{
-        margin-block-start: 48px;
         width: 50%;
         margin-left: auto;
         margin-right: auto;
@@ -1089,6 +1119,7 @@ aside
     {
         border-bottom: 2px #F2F2F2 solid;
         order: 3;
+        margin-left: 233px;
     }
 
     .inscriheader
@@ -1606,11 +1637,11 @@ aside
     }
 
     .filtres {
-        width: 45%;
+        width: 33%;
     }
 
     .filtre-rom {
-        width: 45%;
+        width: 33%;
     }
 
     .filtre-ani {
@@ -1622,7 +1653,7 @@ aside
     }
 
     #chartline {
-        margin-right: -40px;
+        margin-right: -48px;
     }
 
     .asideart
@@ -1631,11 +1662,11 @@ aside
     }
 
     .asidetexte {
-        padding-left: 90px;
+        padding-left: 114px;
     }
 
     .hebe {
-        width: 58%;
+        width: 59.8%;
     }
 
     .divactivites
@@ -1669,18 +1700,18 @@ aside
     }
 
     .imgacti {
-        width: 48%;
+        width: 46%;
     }
 
     .imgactimiddle {
-        width: 48%;
+        width: 46%;
     }
 
     .imgactibig {
-        width: 48%;
+        width: 46%;
     }
 
     .imgactilittle {
-        width: 48%;
+        width: 46%;
     }
 }
