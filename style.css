@@ -272,8 +272,7 @@ footer
 .hebe
 {
     border-radius: 1rem 1rem 0 0;
-    position: absolute;
-    width: 12.1%;
+    width: 100%;
     height: 90px;
     object-fit: cover;
 }
@@ -285,15 +284,9 @@ footer
     border-radius: 1.25rem;
     box-shadow: 0 0 16px #0000002e;
     box-sizing: border-box;
-    height: 199px;
+    height: 210px;
     width: 27%;
     margin: 16px;
-}
-
-.hebetexte
-{
-    padding-top: 80px;
-    font-size: 14px;
 }
 
 aside
@@ -365,8 +358,7 @@ aside
 .imgacti
 {
     border-radius: 1rem 1rem 0 0;
-    position: absolute;
-    width: 26%;
+    width: 100%;
     height: 129px;
     object-fit: cover;
 }
@@ -374,8 +366,7 @@ aside
 .imgactibig
 {
     border-radius: 1rem 1rem 0 0;
-    position: absolute;
-    width: 20.4%;
+    width: 100%;
     height: 316px;
     object-fit: cover; 
 }
@@ -383,8 +374,7 @@ aside
 .imgactimiddle
 {
     border-radius: 1rem 1rem 0 0;
-    position: absolute;
-    width: 20%;
+    width: 100%;
     height: 165px;
     object-fit: cover; 
 }
@@ -392,8 +382,7 @@ aside
 .imgactilittle
 {
     border-radius: 1rem 1rem 0 0;
-    position: absolute;
-    width: 20%;
+    width: 100%;
     height: 88px;
     object-fit: cover; 
 }
@@ -406,7 +395,7 @@ aside
     box-shadow: 0 0 20px #0000002e;
     box-sizing: border-box;
     height: 172px;
-    width: 233%;
+    width: 83%;
     margin: 16px;
 }
 
@@ -432,7 +421,6 @@ aside
     height: 360px;
     width: 21.3%;
     margin: 16px;
-    margin-left: 262px;
 }
 
 .actiartmiddle
@@ -443,7 +431,6 @@ aside
     box-shadow: 0 0 20px #0000002e;
     box-sizing: border-box;
     height: 210px;
-    width: 228%;
     margin: 16px;  
 }
 
@@ -455,13 +442,11 @@ aside
     box-shadow: 0 0 20px #0000002e;
     box-sizing: border-box;
     height: 133px;
-    width: 228%;
     margin: 16px;  
 }
 
 .actitexte
 {
-    padding-top: 125px;
     font-size: 14px;
     font-weight: bold;
     padding-left: 10px;
@@ -469,7 +454,6 @@ aside
 
 .actitextebig
 {
-    padding-top: 310px;
     font-size: 14px;
     font-weight: bold; 
     padding-left: 10px; 
@@ -477,7 +461,6 @@ aside
 
 .actitextemiddle
 {
-    padding-top: 160px;
     font-size: 14px;
     font-weight: bold; 
     padding-left: 10px; 
@@ -485,7 +468,6 @@ aside
 
 .actitextelittle
 {
-    padding-top: 86px;
     font-size: 14px;
     font-weight: bold; 
     padding-left: 10px; 
@@ -494,63 +476,6 @@ aside
 .actibox
 {
     display: flex;
-}
-
-@media screen and (max-width: 1664px) {
-    .inscriheader
-    {
-        margin-right: 122px;
-    }
-
-    .hebergements {
-        width: 59%;
-    }
-
-    .hebe {
-        width: 11.8%;
-    }
-
-    .actiart {
-        width: 156%;
-    }
-
-    .actiartlittle {
-        width: 224%;
-    }
-
-    .actiartmiddle {
-        width: 224%;
-    }
-
-    .actiartbig2 {
-        width: 22.3%;
-    }
-
-    .actiartbig {
-        width: 22.3%;
-    }
-
-    .imgacti
-    {
-        width: 20%;
-    }
-
-    .imgactibig {
-        width: 21.4%;
-    }
-
-    .imgactimiddle {
-        width: 22.6%;
-    }
-
-    .imgactilittle {
-        width: 22.6%;
-    }
-    
-    .imgaside
-    {
-        width: 8%;
-    }
 }
 
 @media screen and (max-width: 1580px){
@@ -562,49 +487,6 @@ aside
     .actiheader
     {
         margin-left: 255px;
-    }
-
-    .hebergements {
-        width: 70%;
-    }
-
-    .hebe {
-        width: 13%;
-    }
-
-    .actiart {
-        width: 181%;
-    }
-
-    .actiartmiddle
-    {
-        width: 199%;
-    }
-
-    .actiartlittle
-    {
-        width: 199%;
-    }
-
-    .actiartbig2
-    {
-        margin-left: 224px;
-    }
-
-    .imgactimiddle {
-        width: 20.9%;
-    }
-
-    .imgactilittle {
-        width: 20.9%;
-    }
-
-    .imgacti {
-        width: 24.5%;
-    }
-
-    footer {
-        width: 99%;
     }
 }
 
@@ -618,20 +500,8 @@ aside
         margin-right: 95px;
     }
 
-    .hebeart {
-        width: 27%;
-    }
-
-    .hebe {
-        width: 12.6%;
-    }
-
-    #chartline {
-        margin-right: -53px;
-    }
-
     .asidetexte {
-        padding-left: 105px;
+        padding-left: 124px;
     }
 
     .asideart
@@ -642,113 +512,19 @@ aside
     .imgaside
     {
         height: 120px;
-        width: 6.7%;
     }
-
-    .actiart
-    {
-        width: 148%;
-    }
-
-    .imgacti
-    {
-        width: 21.5%;
-    }
-
-    .imgactibig {
-        width: 21.1%;
-    }
-
-    .imgactimiddle {
-        width: 22.9%;
-    }
-
-    .imgactilittle {
-        width: 22.9%;
-    }  
 }
 
 @media screen and (max-width: 1255px){
-    .borderheader {
-        margin-left: 495px;
-    }
-
-    .actiheader {
-        margin-left: 195px;
-    }
-
-    .hebergements
-    {
-        width: 57%;
-    }
     
     .hebeart
     {
-        width: 27%;
-        height: 244px;
-    }
-    
-    .hebe
-    {
-        width: 11%;
-        height: 132px;
-    }
-    
-    .hebetexte
-    {
-        padding-top: 125px;
-    }
-    
-    #chartline
-    {
-        padding: 13px 0px;
+        height: 226px;
     }
     
     .asideart
     {
         margin-top: 41px;
-        height: 137px;
-    }
-    
-    .imgaside
-    {
-        width: 7.7%;
-        height: 123px;
-    }
-
-    .actiartbig2 {
-        margin-left: 163px;
-    }
-
-    .actiartmiddle {
-        width: 173%;
-    }
-
-    .actiartlittle {
-        width: 173%;
-    }
-    
-    .imgacti
-    {
-        width: 20%;
-        height: 125px;
-    }
-    
-    .imgactibig
-    {
-        width: 20.2%;
-    }
-    
-    .imgactimiddle
-    {
-        width: 22.9%;
-        height: 164px;
-    }
-    
-    .imgactilittle
-    {
-        width: 22.9%;
-        height: 89px;
     }
 }
 
@@ -758,189 +534,17 @@ aside
     margin-left: 399px;
 }
 
-.actiheader {
-    margin-left: 261px;
-}
-
-    .inscriheader
-{
-    margin-right: 91px;
-}
-
-.hebergements
-{
-    width: 58%;
-}
-
-.hebeart
-{
-    width: 27%;
-    height: 244px;
-}
-
-.hebe
-{
-    width: 11.3%;
-    height: 132px;
-}
-
-aside
-{
-    width: 30%;
-}
-
-#chartline
-{
-    padding: 13px 0px;
-}
-
-.asideart
-{
-    margin-top: 41px;
-    height: 137px;
-}
-
-.imgaside
-{
-    height: 123px;
-}
-
-.actiart
-{
-    width: 117%;
-}
-
-.actiartbig
-{
-    width: 22.3%;
-}
-
-.actiartbig2
-{
-    margin-left: 12px;
-    width: 22.3%;
-}
-
-.actiartmiddle
-{
-    width: 89.3%;
-}
-
-.actiartlittle
-{
-    width: 260px;
-}
-
-.imgacti
-{
-    width: 20.4%;
-    height: 128px;
-}
-
-.imgactibig
-{
-    width: 21%;
-}
-
-.imgactimiddle
-{
-    width: 20.6%;
-    height: 167px;
-}
-
-.imgactilittle
-{
-    width: 20.6%;
-    height: 91px;
+.hebeart {
+    height: 241px;
 }
 }
-
-@media screen and (max-width: 1174px){
-
-    .hebergements
-    {
-        width: 58%;
-    }
-
-    .actiartmiddle {
-        width: 89.3%;
-    }
-
-    .actiartbig2 {
-        margin-left: 13px;
-        width: 21.5%;
-    }
-
-    .actiartbig {
-        width: 21.3%;
-    }
-
-    .actiart {
-        width: 121%;
-    }
-
-    .actiartmiddle {
-        width: 63.3%;
-    }
-
-    .actiartlittle {
-        width: 254px;
-    }
-
-    .imgacti {
-        width: 21.7%;
-    }
-
-    .imgactibig
-    {
-        width: 20%;
-    }
-}
-
-@media screen and (max-width: 1139px){
-    .actiheader {
-        margin-left: 255px;
-    }
-
-    .imgactibig
-    {
-        width: 19.9%;
-    }
-
-    .imgactilittle
-    {
-        width: 21.2%;
-    }
-
-    .imgactimiddle
-    {
-        width: 21.2%;
-    }
-
-    .actiart 
-    {
-        width: 118%;
-    }
-
-    .actiartmiddle
-    {
-        width: 86.3%;
-    }
-    }
 
 @media screen and (max-width: 1068px){
-    .actiheader {
-        margin-left: 226px;
-    }
 
     .hebeart
     {
         width: 26%;
         height: 259px;
-    }
-
-    .hebe {
-        width: 10.6%;
     }
 
     .asideart
@@ -953,102 +557,23 @@ aside
         height: 133px;
     }
 
-    .actiart
-    {
-        width: 103%;
-    }
-
-    .imgactibig {
-    width: 19.8%;
-    }
-
-    .imgactimiddle {
-    width: 21.6%;
-    }
-
-    .imgactilittle {
-    width: 22.6%;
-    }
-
-    .imgacti {
-    width: 20.1%;
-    }
+    .asidetexte {
+    padding-left: 97px;
+}
 }
 
 @media screen and (max-width: 1000px){
     .actiheader {
         margin-left: 197px;
     }
-    
-    .hebeart
-    {
-        width: 26%;
-        height: 277px;
-    }
-    
-    .hebe
-    {
-        width: 10.7%;
-    }
-
-    #chartline
-    {
-        padding: 13px 9px;
-    }
-
-    .asideart
-    {
-        margin-top: 48px;
-        height: 153px;
-    }
-
-    .actiartbig
-    {
-        width: 20.3%;
-    }
-
-    .actiartbig2
-    {
-        width: 20%;
-    }
-
-    .actiart
-    {
-        width: 96%;
-    }
 
     .imgaside
     {
-        width: 87px;
-        height: 140px;
+        height: 134px;
     }
-
-    .imgacti
-    {
-        width: 19.8%;
-    }
-
-    .imgactilittle
-    {
-        width: 24.3%;
-    }
-
-    .imgactimiddle
-    {
-        width: 23.6%;
-    }
-    
-    .imgactibig
-    {
-        width: 18.5%;
-    }
-    }
+}
 
 @media screen and (max-width: 970px){
-    .actiheader {
-        margin-left: 196px;
-    }
-
     .flexhebepop
     {
         display: block;
@@ -1056,40 +581,12 @@ aside
     
     .hebergements {
         width: 82%;
-        margin-right: auto;
-    }
-        
-    .hebeart {
-        width: 25.5%;
-        height: 252px;
-    }
-        
-    .hebe {
-        width: 15%;
     }
         
     aside{
         width: 50%;
         margin-left: auto;
         margin-right: auto;
-    }
-        
-    .imgactibig {
-        width: 18.3%;
-    }
-
-    .imgacti
-    {
-        width: 20.4%;
-    }
-
-    .imgactimiddle
-    {
-        width: 24.6%;
-    }
-
-    .imgactilittle {
-        width: 24.6%;
     }
 }
       
@@ -1193,8 +690,7 @@ aside
 
    .imgaside
    {
-    width: 25%;
-    height: 141px;
+       width: 25%
    }
 
    #chartline
@@ -1222,20 +718,9 @@ aside
        padding-left: 0;
    }
 
-   .hebe
-   {
-       width: 75.2%;
-   }
-
    .hebeart
    {
        width: 100%;
-   }
-
-   .hebetexte
-   {
-    padding-top: 127px;
-    margin-block: 1px;
    }
 
    .divactivites
@@ -1288,52 +773,27 @@ aside
 
    .imgacti
    {
-    width: 47.9%;
     height: 177px;
    }
 
    .imgactibig
    {
-    width: 47.9%;
     height: 177px;
    }
 
    .imgactimiddle
    {
-    width: 47.9%;
     height: 177px;
    }
 
    .imgactilittle
    {
-    width: 47.9%;
     height: 177px;
-   }
-
-   .actitexte
-   {
-    padding-top: 174px;
-   }
-
-   .actitextebig
-   {
-    padding-top: 174px;
-   }
-
-   .actitextemiddle
-   {
-    padding-top: 174px;
-   }
-
-   .actitextelittle
-   {
-    padding-top: 174px;
    }
 
    footer
    {
        display: block;
-       margin-block-start: 42px;
    }
 
    .footertitre
@@ -1396,15 +856,6 @@ aside
        display: none;
    }
 
-   #isearch
-   {
-       background-color: #0065FC;
-       color: white;
-       padding: 13px 15px;
-       border-radius: 11px;
-       text-align: center;
-   }
-
    .ulsection1
    {
        display: block;
@@ -1415,52 +866,9 @@ aside
         width: 28%;
     }
 
-   .filtresecofam
-   {
-       display: flex;
-   }
-
-   #divsection1
-   {
-       display: block;
-   }
-
-   .filtre-rom
-   {
-       width: 26%;
-   }
-
-   .filtre-ani
-   {
-       width: 28%;
-   }
-
-   .populaires
-   {
-       order: 1;
-   }
-
-   .poptitre
-   {
-       margin-left: -13px;
-   }
-
-   aside
-   {
-       width: 71%;
-       border-radius: unset;
-   }
-
    .asideart
    {
     width: 124%;
-    margin-left: -10px;
-   }
-
-   .imgaside
-   {
-    width: 25%;
-    height: 141px;
    }
 
    #chartline
@@ -1473,161 +881,20 @@ aside
        padding-left: 177px;
    }
 
-   .hebergements
-   {
-       order: 2;
-       background-color: white;
-   }
-
-   .hebeart
-   {
-    width: 79.5%;
+   .hebeart {
     height: 233px;
-   }
-
-   .hebe
-   {
-       width: 61.8%;
-   }
-
-   .hebetexte
-   {
-    padding-top: 127px;
-    margin-block: 1px;
-   }
-
-   .divactivites
-   {
-       order: 3;
-       padding-left: 31px;
-   }
-
-   .actibox
-   {
-       display: block;
-   }
-
-   .actiart
-   {
-    width: 63.8%;
-    height: 219px;
-    margin-left: 10px;
-   }
-
-   .actiartbig
-   {
-    width: 63.8%;
-    height: 219px;
-    margin-left: 10px;
-   }
-
-   .actiartbig2
-   {
-       width: 63.8%;
-       height: 219px;
-       margin-left: 10px;
-   }
-
-   .actiartmiddle
-   {
-    width: 63.8%;
-    height: 219px;
-    margin-left: 10px;
-   }
-
-   .actiartlittle
-   {
-    width: 63.8%;
-    height: 219px;
-    margin-left: 10px;
-   }
-
-   .imgacti
-   {
-    width: 53%;
-    height: 175px;
-   }
-
-   .imgactibig
-   {
-    width: 53%;
-    height: 175px;
-   }
-
-   .imgactimiddle
-   {
-    width: 53%;
-    height: 175px;
-   }
-
-   .imgactilittle
-   {
-    width: 53%;
-    height: 175px;
-   }
-
-   .actitexte
-   {
-    padding-top: 174px;
-   }
-
-   .actitextebig
-   {
-    padding-top: 174px;
-   }
-
-   .actitextemiddle
-   {
-    padding-top: 174px;
-   }
-
-   .actitextelittle
-   {
-    padding-top: 174px;
-   }
-
-   footer
-   {
-       display: block;
-       margin-block-start: 42px;
-   }
-
-   .footertitre
-   {
-       font-size: 13px;
-   }
-
-   .ulfooter
-   {
-       padding-top: 10px;
    }
 }
 
 @media screen and (max-width: 500px){
     .asidetexte
     {
-        padding-left: 149px;
+        padding-left: 133px;
     } 
 
-    .imgacti
-    {
-        width: 49%;
-    }
-
-    .imgactibig
-    {
-        width: 49%;
-    }
-
-    .imgactimiddle
-    {
-        width: 49%;
-    }
-
-    .imgactilittle
-    {
-        width: 49%;
-    }
+    #chartline {
+    margin-right: -56px;
+}
 }
 
 @media screen and (max-width: 415px){
@@ -1697,21 +964,5 @@ aside
     .actiartlittle
     {
         height: 232px;
-    }
-
-    .imgacti {
-        width: 46%;
-    }
-
-    .imgactimiddle {
-        width: 46%;
-    }
-
-    .imgactibig {
-        width: 46%;
-    }
-
-    .imgactilittle {
-        width: 46%;
     }
 }
